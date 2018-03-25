@@ -10,7 +10,7 @@ class helloItem extends Component {
         
         <strong>
 
-          AMORCITOS
+          SUPER PORTAL
 
         </strong>
         
