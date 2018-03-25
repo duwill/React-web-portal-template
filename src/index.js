@@ -16,7 +16,7 @@ class App extends Component {
     this.state = {
 
       headers: ["Entertainment","Social media","News and weather", "Educational"],
-      enLinks: ['Diario', 'Calendar', 'Netflix', 'Youtube', 'Batmud', 'Batwiki', 'Maps by Ggr', 'Age of exile maps', 'Weapon compare table', 'Reinc simulator', 'Radio planeta'],
+      enLinks: ['Netflix', 'Youtube', 'Batmud', 'Batwiki', 'Maps by Ggr', 'Age of exile maps', 'Weapon compare table', 'Reinc simulator', 'Radio planeta'],
       soLinks: ['Facebook', 'Gmail', 'Youtube'],
       neLinks: ['El comercio', 'Yle', 'Foreca', 'Peru 21'],
       edLinks: ['Duolingo', 'Stackblitz', 'Glitch', 'GitHub'],
@@ -64,8 +64,6 @@ class App extends Component {
 
       break;        
 
-      case "Diario": openURL("http://irtep.net/diario"); break;
-      case "Calendar": openURL("http://irtep.net/agenda"); break;
       case "Netflix": openURL("http://www.netflix.com"); break;
       case "Youtube": openURL("http://www.youtube.com"); break;
       case "Batmud": openURL("http://www.bat.org"); break;  
